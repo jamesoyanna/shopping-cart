@@ -8,8 +8,8 @@ import CartPage from './pages/CartPage';
 function App() {
   return (
     <Router>
+      <Navbar />
       <main>
-        <Navbar />
         <Switch>
           <Route path="/" exact component={HomePage} />
           <Route path="/product/:id" component={ProductPage} />
